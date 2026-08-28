@@ -1,0 +1,223 @@
+$date
+	Wed Aug 19 02:01:23 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module elevator_controller_tb $end
+$var wire 1 ! move_u $end
+$var wire 1 " move_d $end
+$var wire 1 # motor_stop $end
+$var wire 2 $ current_floor [1:0] $end
+$var reg 1 % clk $end
+$var reg 1 & emergency_stop $end
+$var reg 4 ' floor_req [3:0] $end
+$var reg 1 ( rst $end
+$scope module dut $end
+$var wire 1 % clk $end
+$var wire 1 & emergency_stop $end
+$var wire 4 ) floor_req [3:0] $end
+$var wire 1 ( rst $end
+$var parameter 2 * emergency $end
+$var parameter 2 + idle $end
+$var parameter 2 , move_down $end
+$var parameter 2 - move_up $end
+$var reg 2 . current_floor [1:0] $end
+$var reg 2 / current_state [1:0] $end
+$var reg 1 # motor_stop $end
+$var reg 1 " move_d $end
+$var reg 1 ! move_u $end
+$var reg 2 0 next_state [1:0] $end
+$var reg 2 1 target_floor [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 -
+b10 ,
+b0 +
+b11 *
+$end
+#0
+$dumpvars
+bx 1
+bx 0
+bx /
+bx .
+b0 )
+1(
+b0 '
+0&
+0%
+bx $
+x#
+x"
+x!
+$end
+#5
+1#
+0"
+0!
+b0 0
+b0 1
+b0 /
+b0 $
+b0 .
+1%
+#10
+0%
+#15
+1%
+#20
+0%
+0(
+#25
+1%
+#30
+b1 0
+b10 1
+0%
+b100 '
+b100 )
+#35
+1!
+0#
+b1 /
+1%
+#40
+0%
+#45
+b10 1
+b1 $
+b1 .
+1%
+#50
+b0 0
+b1 1
+0%
+b10 '
+b10 )
+#55
+b1 1
+1#
+0!
+b10 0
+b10 $
+b10 .
+b0 /
+1%
+#60
+0%
+#65
+1"
+0#
+b10 /
+1%
+#70
+b1 0
+b11 1
+0%
+b1000 '
+b1000 )
+#75
+b11 1
+1!
+0"
+b1 $
+b1 .
+b1 /
+1%
+#80
+0%
+#85
+b11 1
+b10 $
+b10 .
+1%
+#90
+b10 0
+b1 1
+0%
+b1010 '
+b1010 )
+#95
+b1 1
+1"
+0!
+b11 $
+b11 .
+b10 /
+1%
+#100
+0%
+#105
+b1 1
+b10 $
+b10 .
+1%
+#110
+b11 0
+0%
+1&
+#115
+1#
+0"
+b1 $
+b1 .
+b11 /
+1%
+#120
+b0 0
+0%
+0&
+#125
+1#
+b0 /
+1%
+#130
+0%
+#135
+1%
+#140
+b10 0
+b0 1
+0%
+b1 '
+b1 )
+#145
+1"
+0#
+b10 /
+1%
+#150
+0%
+#155
+b0 0
+b0 $
+b0 .
+1%
+#160
+0%
+#165
+1#
+0"
+b0 /
+1%
+#170
+0%
+#175
+1%
+#180
+0%
+#185
+1%
+#190
+0%
+#195
+1%
+#200
+0%
